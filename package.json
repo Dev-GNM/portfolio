@@ -14,8 +14,7 @@
   "scripts": {
     "proxy": "http://localhost:3000",
     "start": "PORT=4000 react-scripts start",
-    "build": "tailwindcss -i ./src/index.css -o ./src/app.css",
-    "watch": "tailwindcss -i ./src/index.css -o ./src/app.css --watch",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
