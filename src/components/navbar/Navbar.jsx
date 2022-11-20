@@ -4,8 +4,8 @@ import React from 'react'
 export default function Navbar() {
   return (
     <>
-    <section className='min-h-30 pt-8 text-center text-white pb-6 bg-gray-700 h-35 '>
-      <h1 className='font-bold text-3xl'>Hi, I'm Geoffrey Njihia, a fullstack software developer...</h1>
+    <section className='min-h-30 pt-8 text-center text-white pb-6 bg-gray-700 h-55 '>
+      <h1 className='font-bold text-4xl'>Hi, I'm Geoffrey Njihia, a fullstack software developer...</h1>
    
   <div className=" flex items-center justify-between pt-5 pb-5 text-white">
  

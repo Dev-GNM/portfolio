@@ -6,16 +6,16 @@ const Footer = () => {
 <footer aria-label="Site Footer" Class="bg-gray-900">
   <div Class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div Class="lg:flex lg:gap-8">
-      <div>
+      {/* <div>
         <span Class="block h-10 w-32 rounded-lg bg-gray-700"></span>
-      </div>
+      </div> */}
 
       <div
         Class="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16"
       >
         <div Class="col-span-2">
           <div>
-            <h2 Class="text-2xl font-bold text-white">Get the latest news!</h2>
+            <h2 Class="text-2xl font-bold text-white">Be the first to read my tech articles!</h2>
 
             <p Class="mt-6 text-gray-400">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non
@@ -37,10 +37,10 @@ const Footer = () => {
               />
 
               <button
-                Class="mt-1 h-12 w-full bg-red-700 px-6 py-3 text-sm font-bold uppercase tracking-wide sm:ml-4 sm:mt-0 sm:w-auto sm:flex-shrink-0"
+                Class="mt-1 h-12 w-full bg-blue-700 rounded-full px-6 py-3 text-sm font-bold uppercase tracking-wide sm:ml-4 sm:mt-0 sm:w-auto sm:flex-shrink-0"
                 type="submit"
               >
-                Sign Up
+                Subscribe
               </button>
             </div>
           </form>
@@ -53,7 +53,7 @@ const Footer = () => {
             aria-label="Footer Nav"
             Class="mt-6 flex flex-col space-y-4 text-sm text-gray-300"
           >
-            <a Class="inline-block" href=""> Programming Coaching </a>
+            <a Class="inline-block" href=""> Coaching </a>
             <a Class="inline-block" href=""> Javascript </a>
             <a Class="inline-block" href=""> React </a>
             <a Class="inline-block" href=""> Ruby </a>
@@ -62,13 +62,14 @@ const Footer = () => {
         </div>
 
         <div Class="col-span-2 border-t border-white/10 pt-6 sm:col-span-1">
-          <p Class="font-bold text-white">Company</p>
+          <p Class="font-bold text-white">Portfolio</p>
 
           <nav Class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
             <a Class="inline-block" href=""> About </a>
-            <a Class="inline-block" href=""> Meet the Team </a>
-            <a Class="inline-block" href=""> History </a>
-            <a Class="inline-block" href=""> Careers </a>
+            <a Class="inline-block" href=""> Project Management </a>
+            <a Class="inline-block" href=""> Events </a>
+         
+
           </nav>
         </div>
 
@@ -77,19 +78,8 @@ const Footer = () => {
 
           <nav Class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
             <a Class="inline-block" href=""> Contact </a>
-            <a Class="inline-block" href=""> FAQs </a>
-            <a Class="inline-block" href=""> Live Chat </a>
-          </nav>
-        </div>
+            <a Class="inline-block" href=""> Projects </a>
 
-        <div Class="col-span-2 border-t border-white/10 pt-6 sm:col-span-1">
-          <p Class="font-bold text-white">Legal</p>
-
-          <nav Class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
-            <a Class="inline-block" href=""> Accessibility </a>
-            <a Class="inline-block" href=""> Returns Policy </a>
-            <a Class="inline-block" href=""> Refund Policy </a>
-            <a Class="inline-block" href=""> Hiring Statistics </a>
           </nav>
         </div>
 
@@ -97,8 +87,8 @@ const Footer = () => {
           <p Class="font-bold text-white">Downloads</p>
 
           <nav Class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
-            <a Class="inline-block" href=""> Marketing Calendar </a>
-            <a Class="inline-block" href=""> SEO Infographics </a>
+            <a Class="inline-block" href=""> Boilerplates </a>
+            <a Class="inline-block" href=""> My Resume </a>
           </nav>
         </div>
 
@@ -170,7 +160,7 @@ const Footer = () => {
           </a>
 
           <a Class="hover:opacity-75" href="" target="_blank" rel="noreferrer">
-            <span Class="sr-only"> Dribbble </span>
+            <span Class="sr-only"> LinkedIn </span>
 
             <svg
               Class="h-6 w-6"
@@ -192,7 +182,7 @@ const Footer = () => {
     <div Class="mt-12 border-t border-white/10 pt-8">
       <div Class="grid grid-cols-1 gap-8 lg:grid-cols-2">
         <p Class="text-center text-xs text-gray-400 lg:text-left">
-          Copyright &copy; 2022. Company Name. All rights reserved.
+          Copyright &copy; 2022. Geoffrey Njihia. All rights reserved.
         </p>
 
         <nav
@@ -200,7 +190,6 @@ const Footer = () => {
         >
           <a href=""> Terms & Conditions </a>
           <a href=""> Privacy Policy </a>
-          <a href=""> Cookies </a>
         </nav>
       </div>
     </div>
