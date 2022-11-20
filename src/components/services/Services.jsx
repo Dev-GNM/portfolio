@@ -5,8 +5,8 @@ const Services = () => {
     return (
         <>
         {/* <Sidebar /> */}
-            <section>
-                <div className="items-stretch container flex justify-center">
+            <section className='relative pb-8'>
+                <div className=" container flex justify-center ml-10">
 
                 <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">

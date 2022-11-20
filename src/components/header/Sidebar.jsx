@@ -7,7 +7,7 @@ const Sidebar = () => {
         <>
             <div className="container relative mx-auto my-60">
                 <div>
-                    <div className="bg-white absolute inset-y-0 shadow rounded-lg w-5/6 md:w-3/6 lg:w-3/6  xl:w-2/6 mx-auto">
+                    <div className="bg-white inset-y-0 shadow rounded-lg w-5/6 md:w-3/6 lg:w-3/6  xl:w-2/6 mx-auto">
                         <div className="flex justify-center">
                             <img src="https://avatars0.githubusercontent.com/u/35900628?v=4" alt="" className='rounded-full mx-auto absolute -top-20 w-32 h-32 shadow-md border-white transition duration-200 transform hover:scale-110' />
                         </div>
