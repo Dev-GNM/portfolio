@@ -2,7 +2,6 @@ import React from 'react';
 import { AiFillGithub } from 'react-icons/fa'
 
 
-
 const Sidebar = () => {
     return (
         <>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../images/logo4.PNG'
 
 export default function Navbar() {
   return (
@@ -8,8 +9,8 @@ export default function Navbar() {
    
   <div className=" flex items-center justify-between pt-5 pb-5 text-white">
  
-    <div className="pt-2">
-        <img src="images/mylogo3.PNG" alt=""/>
+    <div className="pt-2 ml-4">
+        <img src={Logo} alt=""/>
     </div>
   
     <div className="hidden md:flex space-x-8 pl-2 pt-5">
