@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub } from 'react-icons/fa'
+// import { AiFillGithub } from 'react-icons/fa'
 
 
 const Sidebar = () => {
