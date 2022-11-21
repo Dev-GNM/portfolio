@@ -87,8 +87,9 @@ const Footer = () => {
           <p Class="font-bold text-white">Downloads</p>
 
           <nav Class="mt-6 flex flex-col space-y-4 text-sm text-gray-300">
+          <a Class="inline-block" href=""> My Resume </a>
             <a Class="inline-block" href=""> Boilerplates </a>
-            <a Class="inline-block" href=""> My Resume </a>
+     
           </nav>
         </div>
 
