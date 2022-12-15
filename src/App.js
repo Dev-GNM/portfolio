@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/header/Sidebar";
-import Services from "./components/services/Services";
+// import Services from "./components/services/Services";
 import Footer from "./components/footer/Footer";
 
 
@@ -9,7 +9,7 @@ function App() {
     <>
      <Navbar />
      <Sidebar />
-     <Services />
+     {/* <Services /> */}
      <Footer />
     </>
   );
